@@ -4,7 +4,7 @@ import whatsApp from '../../assets/whatsapp.png'
 
 const Contacts = () => {
 	return (
-		<div className='flex gap-4 items-center'>
+		<div className='hidden gap-4 items-center md:flex'>
 			<span>+7 555 555-55-55</span>
 			<img src={telegram} alt='Telegram' />
 			<img src={viber} alt='Viber' />

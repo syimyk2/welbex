@@ -1,21 +1,31 @@
 const Navigations = () => {
 	return (
-		<nav>
-			<ul className='flex gap-5'>
+		<nav className='w-full md:w-auto flex justify-center md:block'>
+			<ul className='flex gap-5 items-center justify-center'>
 				<li>
-					<a href='#'>Услуги</a>
+					<a className='hover:text-blue-300' href='#'>
+						Услуги
+					</a>
 				</li>
 				<li>
-					<a href='#'>Виджеты</a>
+					<a className='hover:text-blue-300' href='#'>
+						Виджеты
+					</a>
 				</li>
 				<li>
-					<a href='#'>Интеграции</a>
+					<a className='hover:text-blue-300' href='#'>
+						Интеграции
+					</a>
 				</li>
 				<li>
-					<a href='#'>Кейсы</a>
+					<a className='hover:text-blue-300' href='#'>
+						Кейсы
+					</a>
 				</li>
 				<li>
-					<a href='#'>Сертификаты</a>
+					<a className='hover:text-blue-300 hidden md:block' href='#'>
+						Сертификаты
+					</a>
 				</li>
 			</ul>
 		</nav>
